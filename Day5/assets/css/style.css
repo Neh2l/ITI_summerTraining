@@ -1,0 +1,7 @@
+.welcome_page {
+    width: 30%;
+    height: 40vh;
+    background-color: white;
+    padding: 5rem;
+    box-shadow: 0 0 4px gray;
+}
