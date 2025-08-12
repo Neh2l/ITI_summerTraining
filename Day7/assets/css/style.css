@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    margin: 0;
+}
+
+.container {
+    width: 40%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+#btn {
+    width: 40%;
+    height: 4vh;
+    background-color: rgb(190, 189, 189);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btn:hover {
+    background-color: #ccc;
+}
+
+#note {
+    width: 100%;
+    min-height: 10vh;
+    background-color: rgb(190, 189, 189);
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#author {
+    color: #333;
+    font-weight: bold;
+}
