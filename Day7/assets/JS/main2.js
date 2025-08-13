@@ -1,10 +1,10 @@
 
 const data = [
-    { color: "red", text: "This is red" },
-    { color: "green", text: "This is green" },
-    { color: "blue", text: "This is blue" },
-    { color: "purple", text: "This is purple" },
-    { color: "orange", text: "This is orange" }
+    { color: "red", text: " Lorem ipsum dolor sit amet consectetur adipisicing elit." },
+    { color: "green", text: " Lorem ipsum dolor sit amet consectetur adipisicing elit." },
+    { color: "blue", text: " Lorem ipsum dolor sit amet consectetur adipisicing elit." },
+    { color: "purple", text: " Lorem ipsum dolor sit amet consectetur adipisicing elit.e" },
+    { color: "orange", text: " Lorem ipsum dolor sit amet consectetur adipisicing elit." }
 ];
 
 let index = 0;
