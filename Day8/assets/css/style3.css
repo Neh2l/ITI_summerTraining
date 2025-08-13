@@ -1,0 +1,14 @@
+button {
+    width: 10%;
+    height: 5vh;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: .3rem;
+}
+
+canvas {
+    width: 50%;
+    height: 70vh;
+}
