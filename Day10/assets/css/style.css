@@ -1,0 +1,155 @@
+:root {
+    --primary-color: #015D82;
+    --secondary-color: #00A6CE;
+    --background-color: #F5F5F5;
+    --text-color: #333333;
+    --white-color: #FFFFFF;
+    --gray-color: #999999;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 8vh;
+    background-color: var(--background-color);
+    box-shadow: 0 0 4px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+
+}
+
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+li:hover {
+    color: var(--primary-color);
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #333333; */
+    background-image: url(../imgs/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.shadow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(170, 168, 168, 0.4);
+    position: absolute;
+
+}
+
+.card {
+    width: 20%;
+    text-align: center;
+    background-color: var(--white-color);
+    box-shadow: 0 0 4px var(--gray-color);
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+.more {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(149, 151, 151, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+    font-size: 1.5rem;
+    transition: bottom 0.4s ease;
+}
+
+.card:hover .more {
+    bottom: 0;
+}
+
+
+
+
+.cards {
+    margin: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+@media (max-width: 767px) {
+    .card {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card {
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .card {
+        width: 33.3%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .card {
+        width: 25%;
+    }
+
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
