@@ -26,9 +26,7 @@ nav {
     font-weight: bold;
     font-size: 1.2rem;
 
-
 }
-
 
 nav ul {
     display: flex;
@@ -116,6 +114,7 @@ li:hover {
 
 }
 
+
 @media (max-width: 767px) {
     .card {
         width: 100%;
@@ -153,3 +152,19 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+/* button {
+    width: 10%;
+    height: 4vh;
+    background-color: #00A6CE;
+    border-radius: 1rem;
+    border: none;
+}
+
+.show {
+    width: 15%;
+    height: 30vh;
+    margin: 3rem;
+
+    background-color: #015D82;
+} */
